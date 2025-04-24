@@ -1,0 +1,8 @@
+segt = int(input('Por favor, entre com o número de segundos que deseja converter: '))
+dias = (segt // 86400)
+horas = (segt % 86400)
+horasf = (horas // 3600)
+minutos = (horas % 3600)
+minutosf = (minutos // 60)
+segundos = (minutos % 60)
+print(f'{dias} dias, {horasf} horas, {minutosf} minutos e {segundos} segundos.')
